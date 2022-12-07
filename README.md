@@ -27,7 +27,15 @@
 
 ## Conclusion
   - 베타세포 검출
-    - ![image](https://user-images.githubusercontent.com/80460636/206118538-33e2696e-f154-445f-8dc6-d06f60cdf426.png)
-
-  - ### OOO
   
+    ![image](https://user-images.githubusercontent.com/115348323/206132251-3204d9ae-fdd7-44c0-960e-94b031fcb06d.png)
+    - Labeling automation data Iou score, Dice loss
+    
+    ![image](https://user-images.githubusercontent.com/115348323/206132455-7100c2b4-63a2-4abf-97d9-09292c3dee65.png)
+    - 충남대학교 Label data Iou score, Dice loss
+
+  - ### 결과
+    ![image](https://user-images.githubusercontent.com/115348323/206132766-9aee180a-d775-480c-ad18-c815d440a1ff.png)
+    - Labeling automation data의 성능을 확인하기 위해 충남대학교 Label data와 비교 분석을 하였다.
+    - Labeling automation data 학습 결과 mean Iou 0.80 충남대학교 Label data 학습 결과 mean Iou 0.85로 실제 label로 학습했을때 성능이 더 좋은 것을 확인할 수 있었다. prediction을 다시 label data로 사용하는 준지도 학습을 통해 성능개선을 할 수 있을 것이다. 
+
